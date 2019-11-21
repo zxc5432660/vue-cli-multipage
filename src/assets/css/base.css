@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'bebas';
+  src: url(../font/bebas.ttf);
+}
+ 
+.red{
+  color: #F5454A !important;
+}
+.blue{
+  color: #1E60F9 !important;
+}
+. 
+.iconfont{
+  font-size: 0.18rem;
+  vertical-align: middle;
+}
+.iconzhifubao{
+   color: #06b4fd;
+}
+.icontishi{
+   color: rgb(80,182,116);
+}
+.iconweixin{
+  color: rgb(80,182,116);
+}
+.iconQQ{
+  color: #000
+}
+.iconxianliao{
+  color: #01a1ef
+}
+.iconyunshanfu{
+  color: #d82a29
+}
+.iconyinhangqia{
+  color: rgb(40,104,240);
+}
+.iconxingzhuangjiehe{
+  color: #2E344D; 
+}
+.iconyinhangqiashezhi{
+  color: rgb(40,104,240);
+}
+.activeBtn{
+  background: #06b572 !important;
+  color: #fff !important
+}
+.empty-data{
+  text-align: center;
+  margin-top: 2rem;
+  color: #323232;
+}
+.box-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+} 
+.iconfanhuijiantou{
+  color: #969799;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */ 
+  color: #CACBCC;
+}
+::-moz-placeholder { /* Firefox 19+ */  
+  color: #CACBCC;
+}
+:-ms-input-placeholder { /* IE 10+ */ 
+ color: #CACBCC;
+}
+:-moz-placeholder { /* Firefox 18- */ 
+ color: #CACBCC;
+}
+/**
+ *vant样式
+ */
+.van-nav-bar{
+  background-color: #1E60F9 !important;
+}
+.van-nav-bar .van-icon, .van-nav-bar__title{
+  color: #fff !important;
+  font-size: 0.16rem !important;
+}
+
+.van-number-keyboard{
+  z-index: 9999 !important
+}
+.van-nav-bar__title{
+  font-size: 0.16rem;
+}
+/*导航左侧箭头*/
+.van-nav-bar__left{
+  left: 0.2rem !important;
+}
+.van-nav-bar .iconfont{
+  font-size: 0.18rem;
+  color: rgba(255,255,255,0.4);
+}
+/*弹框标题*/
+.van-dialog__header{
+  font-size: 0.16rem;
+  color: #303133;
+}

@@ -1,0 +1,64 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}  /* 初始化标签在所有浏览器中的margin、padding值 */
+body,html{
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica Neue',"Pingfang SC", "Microsoft Yahei",Arial,Helvetica,sans-serif;
+  background: #fff;
+}
+.clearfix{zoom:1}
+.clearfix:after{content:".";width:0;height:0;visibility:hidden;display:block;clear:both;overflow:hidden}
+.fl{float:left}
+.fr{float:right}
+.tl{text-align:left}
+.tc{text-align:center}
+.tr{text-align:right}
+.ellipse{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.flex{
+  display: flex;
+  display: -webkit-flex;
+}
+
+.flex-h{
+  display: flex;
+  align-items: center;
+}
+.flex-s{
+  display: flex;
+  justify-content: center;
+}
+dl,ul,ol,menu,li {list-style:none}   /* 重置类表前导符号为onne,menu在HTML5中有效 */
+input,textarea,button{outline:none;border: 0}
+a {color:#666;text-decoration:none;outline: none}  /* 重置链接a标签 */
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:auto}    /* 重置table属性 */
+td {
+  -ms-word-break: break-all;
+  word-break: break-all;}
+  /* 取消a标签点击后的虚线框 */
+#alertBg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: all 0.3 linear;
+}
+#alertBg .text {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .7);
+  color: #fff;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 15px;
+}
+.van-nav-bar .van-icon,.van-nav-bar__title{
+  color: #fff !important;
+}
+ 
+ 
